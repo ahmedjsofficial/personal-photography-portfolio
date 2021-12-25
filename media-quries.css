@@ -1,0 +1,35 @@
+/*--=========media-quries==================--*/
+@media screen and (min-width: 768px)
+{
+	.navbar-nav{
+		padding: 0;
+	}
+	nav:hover .nav-link:not(:hover){
+		opacity: 0.5;
+	}
+	.about-content{
+		position: relative;
+		display: block;
+	}
+	.about-description{
+		position: absolute;
+		top: 68%;
+		transform: translateY(-50%);
+		width: 55%;
+		outline-offset: -10px;
+		outline-color: rgb(255,255,255,0.4);
+		padding: -12rem;
+	    background: rgb(0,0,0,0.8);
+		color: silver;
+	}
+	.about-image img{
+		width: 90%;
+		margin-left: auto;
+	}
+	.lb-close{
+		position: absolute;
+		float: none;
+		top: -20px;
+		right: 40px;
+	}
+}
